@@ -4640,7 +4640,7 @@ html {
   }
   .tm-toolbar {
     width: 90%;
-    margin: 26px auto 0;
+    margin: 3px auto 0; /*26px auto 0*/
   }
   .tm-toolbar + .tm-page {
     margin-top: 0;
@@ -4687,6 +4687,8 @@ html {
 .tm-logo-small {
   /*letter-spacing: -0.31em;*/
 }
+.tm-logo-small h4 {color:#fff; font-weight: bold;}
+
 .tm-navbar + .tm-block {
   padding-top: 40px;
 }
@@ -4851,3 +4853,8 @@ html {
   display: inline-block;
 }
 /* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+.header_0{
+  height: 56px;
+  background: #5A5D5F url(../img/toolbar.png) 0 0 repeat-x;
+  overflow: hidden;
+}
