@@ -4599,7 +4599,7 @@ html {
   position: relative;
 }
 .tm-toolbar {
-  margin: 10px;
+  margin: 5px 10px;
   max-width: 100%;
 }
 .tm-sticky-navbar,
@@ -4636,11 +4636,10 @@ html {
   .tm-page {
     max-width: 90%;
     margin-top: 60px;
-    /*margin-bottom: 60px;*/
   }
   .tm-toolbar {
     width: 90%;
-    margin: 3px auto 0; /*26px auto 0*/
+    margin: 5px auto 10px;
   }
   .tm-toolbar + .tm-page {
     margin-top: 0;
@@ -4667,9 +4666,6 @@ html {
   }
 }
 @media (min-width: 1700px) {
-  /*.tm-page {
-    margin-bottom: 140px;
-  }*/
   .tm-page,
   .tm-toolbar {
     max-width: 75%;
@@ -4684,11 +4680,6 @@ html {
     padding: 10px 0 10px 10px;
   }
 }
-.tm-logo-small {
-  /*letter-spacing: -0.31em;*/
-}
-.tm-logo-small h4 {color:#fff; font-weight: bold;}
-
 .tm-navbar + .tm-block {
   padding-top: 40px;
 }
@@ -4827,7 +4818,7 @@ html {
   box-shadow: none;
 }
 .uk-form.tm-form-primary input {
-  height: 52px;
+  height: 65px;
 }
 .uk-form.tm-form-primary textarea {
   padding-top: 20px;
@@ -4849,12 +4840,27 @@ html {
     background-size: 100% 1800px, 1400px 1400px, 1600px 1600px, 100% 100%, 100% 100%, 100% 100%;
   }
 }
-.inline{
-  display: inline-block;
+.geo1 img {
+  margin: 15px 0 0 0;
 }
-/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
-.header_0{
+.header_0 {
   height: 56px;
-  background: #5A5D5F url(../img/toolbar.png) 0 0 repeat-x;
+  background: #5a5d5f url("../../../img/toolbar.png") 0 0 repeat-x;
   overflow: hidden;
 }
+.tm-logo-small {
+  display: inline-block;
+}
+.inline {
+  display: inline-block;
+}
+.inline h4 {
+  color: #fff;
+  font-weight: bold;
+}
+@media (min-width: 800px) and (max-with: 1000px) {
+  .geo1 img {
+    width: 600px !important;
+  }
+}
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */

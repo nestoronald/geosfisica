@@ -75,7 +75,11 @@ include($this['path']->path('layouts:theme.config.php'));
 			</div>
 		</div>
 		<?php endif; ?>
-
+		<div class="tm-block block_geo1 tm-block-dark">
+			<div class="uk-container uk-container-center">
+			<jdoc:include type="modules" name="top-geo1" />
+			</div>
+		</div>
 		<?php if ($this['widgets']->count('top-b')) : ?>
 		<div class="tm-block <?php echo $position_background_classes['top-b'] ?>">
 			<div class="uk-container uk-container-center">
