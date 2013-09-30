@@ -11,10 +11,11 @@
 .wk-slideshow-lava .nav-wrapper {
 	position: absolute;
 	z-index: 4;
-	bottom: 3%;
-	left: 0;
-	right: 0;
+	bottom: 4%;
+	/*left: 0;*/
+	right: 4%;
 	text-align: center;
+	z-index: 8;
 }
 
 .wk-slideshow-lava .nav li {

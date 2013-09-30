@@ -84,10 +84,17 @@ a[data-lightbox] img {
 }
 
 .wk-slideshow .caption {
+	font-size: 2em;	
+	line-height: 1;
+	margin-right: 12%;
+	text-align: left !important;
+}
+/* slideshow geofisica*/
+.wk-slideshow .conte-slideshow {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 3%;
 	z-index: 5;
 	padding: 10px;
 	background: rgba(0,0,0,0.5);
