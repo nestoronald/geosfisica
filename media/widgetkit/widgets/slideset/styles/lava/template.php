@@ -52,7 +52,7 @@
 						$item["content"] = ($i==$settings['index']) ? $item["content"] : $this['image']->prepareLazyload($item["content"]);
 					?>
 					<li>
-						<article class="wk-content"><?php echo $item['content']; ?></article>
+						<article class="wk-content nuevo "><?php echo $item['content']; ?></article>
 						<?php if($item['subcontent']): ?>
 						<div class="sub-content"><?php echo $item['subcontent']; ?></div>
 						<?php endif; ?>
