@@ -26,10 +26,14 @@
 
 .hook-search-field-focus() {}
 
-.uk-search-field:focus,
-.uk-active .uk-search-field {
+.uk-search-field:focus{
+	background-color: @navbar-nav-active-background;
+   	color: @navbar-nav-active-color;
+	-moz-box-sizing: border-box;
+	.uk-active .uk-search-field {
 	padding: 0 @search-padding;
 	cursor: text;
+	}
 }
 
 

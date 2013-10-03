@@ -200,7 +200,7 @@ echo base64_decode($a03a06);
 
 					<?php
 						echo $this['widgets']->render('footer');
-						$this->output('warp_branding');
+						// $this->output('warp_branding');
 						echo $this['widgets']->render('debug');
 					?>
 

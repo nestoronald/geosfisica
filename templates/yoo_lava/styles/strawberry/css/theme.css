@@ -4362,6 +4362,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 20px;
+  text-align: left;
 }
 .uk-panel-box .uk-nav-side {
   margin: 0;
@@ -4547,8 +4548,12 @@ li.uk-pagination-previous > span {
   -webkit-transform: scale(1.2) rotateZ(-3deg);
   transform: scale(1.2) rotateZ(-3deg);
 }
-.uk-search-field:focus,
-.uk-active .uk-search-field {
+.uk-search-field:focus {
+  background-color: #3e4145;
+  color: #e54e4b;
+  -moz-box-sizing: border-box;
+}
+.uk-search-field:focus .uk-active .uk-search-field {
   padding: 0 30px;
   cursor: text;
 }
@@ -4636,11 +4641,11 @@ html {
 }
 @media (min-width: 960px) {
   .tm-page {
-    max-width: 90%;
+    max-width: 85%;
     margin-top: 60px;
   }
   .tm-toolbar {
-    width: 90%;
+    width: 85%;
     margin: 5px auto 10px;
   }
   .tm-toolbar + .tm-page {
@@ -4648,7 +4653,7 @@ html {
   }
   .tm-sticky-navbar,
   .tm-sticky-navbar-tool {
-    width: 90%;
+    width: 85%;
   }
   .tm-sticky-navbar + * {
     margin-top: 165px;
@@ -4660,21 +4665,21 @@ html {
 @media (min-width: 1220px) {
   .tm-page,
   .tm-toolbar {
-    max-width: 85%;
+    max-width: 80%;
   }
   .tm-sticky-navbar,
   .tm-sticky-navbar-tool {
-    width: 85%;
+    width: 80%;
   }
 }
 @media (min-width: 1700px) {
   .tm-page,
   .tm-toolbar {
-    max-width: 75%;
+    max-width: 70%;
   }
   .tm-sticky-navbar,
   .tm-sticky-navbar-tool {
-    width: 75%;
+    width: 70%;
   }
 }
 @media (max-width: 959px) {
@@ -4867,12 +4872,15 @@ html {
     width: 600px !important;
   }
 }
+.item-igp .itemDetails li {
+  list-style: none;
+}
 .item-igp .itemImage {
   float: left;
   margin: 0 56px 32px 0;
   background: #83d6df;
   border-radius: 50%;
-  margin: 0 auto 20px;
+  margin: 0 2em 20px auto;
   padding: 8px;
 }
 .item-igp img {

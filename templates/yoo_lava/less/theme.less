@@ -16,9 +16,9 @@
 
 @theme_global-body-style: 				default;
 
-@theme_utility-page-large-max-width: 	90%;
-@theme_utility-page-xlarge-max-width: 	85%;
-@theme_utility-page-xxlarge-max-width: 	75%;
+@theme_utility-page-large-max-width: 	85%;
+@theme_utility-page-xlarge-max-width: 	80%;
+@theme_utility-page-xxlarge-max-width: 	70%;
 
 
 /* Layout
@@ -534,34 +534,37 @@ html { overflow-y: scroll; }
 	}
 }
 //staff CV
-.item-igp .itemImage {
-	float: left;
-	margin: 0 56px 32px 0;
-	background: #83d6df;
-	border-radius: 50%;
-	margin: 0 auto 20px;
-	padding: 8px;
+.item-igp {
+	.itemDetails li{
+		list-style: none;
 	}
-
-.item-igp img {
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
+	.itemImage {
+		float: left;
+		margin: 0 56px 32px 0;
+		background: #83d6df;
+		border-radius: 50%;
+		margin: 0 2em 20px auto;
+		padding: 8px;
+		}
+	img {
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-o-border-radius: 50%;
+	}
+	.itemExtraFieldsLabel {
+		color: #2F3336;
+		font-size: 12px;
+		font-weight: 600;
+		padding-right: 12px;
+		text-transform: uppercase;
+	}
+	.itemText {
+		border-top: 1px solid #d5d5d5;
+		clear: both;
+		padding-top: 18px;
+	}
 }
-
-.item-igp .itemExtraFieldsLabel {
-	color: #2F3336;
-	font-size: 12px;
-	font-weight: 600;
-	padding-right: 12px;
-	text-transform: uppercase;
-	}
-.item-igp .itemText {
-	border-top: 1px solid #d5d5d5;
-	clear: both;
-	padding-top: 18px;
-	}
 .rotate3d	{
 	-webkit-transform: rotate3d(0,1,0,180deg);
 	-moz-transform: rotate3d(0,1,0,180deg);
