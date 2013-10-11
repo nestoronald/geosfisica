@@ -76,7 +76,7 @@ include($this['path']->path('layouts:theme.config.php'));
 		</div>
 		<?php endif; ?>
 		<?php if ($this['widgets']->count('top-geo1')) : //if ($this->countModules('top-geo1')): ?>
-		<div class="tm-block block_geo1 tm-block-dark">
+		<div class="tm-block block_geo1">
 			<div class="uk-container uk-container-center">
 			<jdoc:include type="modules" name="top-geo1" />
 			</div>

@@ -19,6 +19,10 @@
 @theme_utility-page-large-max-width: 	85%;
 @theme_utility-page-xlarge-max-width: 	80%;
 @theme_utility-page-xxlarge-max-width: 	70%;
+@fondo_main: #EEEDEB;
+@fondo_home: #C6C3BE;
+
+
 
 
 /* Layout
@@ -346,22 +350,22 @@ html { overflow-y: scroll; }
 .body-style () when (@theme_global-body-style = default) {
 
 	body { 
-		background-color: #4c4f53;
+		// background-color: #4c4f53;
 
-		background: url(../images/background/default/gradient1.svg) 75% 110% no-repeat fixed,
-					url(../images/background/default/gradient2.svg) -20% -10% no-repeat fixed,
-					url(../images/background/default/gradient3.svg) 120% 0% no-repeat fixed,
-					-webkit-linear-gradient(130deg, rgba(75,60,80,0) 60%,  #4a434f 100%) 0 0 fixed,
-					-webkit-linear-gradient(top, #83a7ab 0%,#23263c 100%) 0 0 fixed;
+		// background: url(../images/background/default/gradient1.svg) 75% 110% no-repeat fixed,
+		// 			url(../images/background/default/gradient2.svg) -20% -10% no-repeat fixed,
+		// 			url(../images/background/default/gradient3.svg) 120% 0% no-repeat fixed,
+		// 			-webkit-linear-gradient(130deg, rgba(75,60,80,0) 60%,  #4a434f 100%) 0 0 fixed,
+		// 			-webkit-linear-gradient(top, #83a7ab 0%,#23263c 100%) 0 0 fixed;
 
-		background: url(../images/background/default/gradient1.svg) 75% 110% no-repeat fixed,
-					url(../images/background/default/gradient2.svg) -20% -10% no-repeat fixed,
-					url(../images/background/default/gradient3.svg) 120% 0% no-repeat fixed,
-					linear-gradient(130deg, rgba(75,60,80,0) 60%,  #4a434f 100%) 0 0 fixed,
-					linear-gradient(to bottom, #83a7ab 0%,#23263c 100%) 0 0 fixed;
+		// background: url(../images/background/default/gradient1.svg) 75% 110% no-repeat fixed,
+		// 			url(../images/background/default/gradient2.svg) -20% -10% no-repeat fixed,
+		// 			url(../images/background/default/gradient3.svg) 120% 0% no-repeat fixed,
+		// 			linear-gradient(130deg, rgba(75,60,80,0) 60%,  #4a434f 100%) 0 0 fixed,
+		// 			linear-gradient(to bottom, #83a7ab 0%,#23263c 100%) 0 0 fixed;
 
-		background-size: 100% 1800px, 1400px 1400px, 1600px 1600px, 100% 100%, 100% 100%, 100% 100%;
-		// background-color: #8b8e94;
+		// background-size: 100% 1800px, 1400px 1400px, 1600px 1600px, 100% 100%, 100% 100%, 100% 100%;
+		background-color: @fondo_main;
 	}
 
 }
@@ -541,7 +545,7 @@ html { overflow-y: scroll; }
 	.itemImage {
 		float: left;
 		margin: 0 56px 32px 0;
-		background: #83d6df;
+		background: @theme_global-default-background;
 		border-radius: 50%;
 		margin: 0 2em 20px auto;
 		padding: 8px;
@@ -575,3 +579,5 @@ html { overflow-y: scroll; }
 .uk-article{
 	text-align: justify;
 }
+//fondo staff
+.block_geo1 { background-color:@fondo_home,80% }

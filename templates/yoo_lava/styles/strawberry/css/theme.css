@@ -4878,7 +4878,7 @@ html {
 .item-igp .itemImage {
   float: left;
   margin: 0 56px 32px 0;
-  background: #83d6df;
+  background: #e54e4b;
   border-radius: 50%;
   margin: 0 2em 20px auto;
   padding: 8px;
@@ -4910,6 +4910,9 @@ html {
 }
 .uk-article {
   text-align: justify;
+}
+.block_geo1 {
+  background-color: #c6c3be, 80%;
 }
 /* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 /*
