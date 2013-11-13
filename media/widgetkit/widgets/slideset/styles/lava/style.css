@@ -106,7 +106,7 @@
 
 .wk-slideset-lava article { 	
 	border-radius: 50%;
-	border: 15px solid #eef3f5;
+	border: 12px solid #bd852d;/*#eef3f5*/
 }
 
 .wk-slideset-lava article:first-child { margin-right: -7px; }
@@ -127,7 +127,9 @@ body .wk-slideset-lava .overlay > div {
 	border-radius: 50%;
 }
 
-.wk-slideset-lava .sub-content { margin-top: 40px; }
+.wk-slideset-lava .sub-content { 
+	margin-top: 33px;
+	margin-left: 14%; }
 
 
 /* Responsive

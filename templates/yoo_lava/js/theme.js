@@ -66,17 +66,20 @@ jQuery(function($) {
 		};
 
 	};
-	$('.staff_igp').hover(
-		function(){
-			alt = $(this).attr('alt');
-			src_img = $(this).attr('src');			
-			src_new = '/geofisica/images/content/staff/'+alt+'-2.png';
-			$(this).attr('src',src_new);
-			$(this).css('transform','rotate3d(0,1,0,180deg)');
-			// alert(src_new);
-		},
-		function(){
-			$(this).attr('src',src_img);
-		}
-		);
+	// $('.staff_igp').hover(
+	// 	function(){
+	// 		alt = $(this).attr('alt');
+	// 		src_img = $(this).attr('src');			
+	// 		src_new = '/geofisica/images/content/staff/'+alt+'-2.png';
+	// 		$(this).attr('src',src_new);
+	// 		$(this).css('transform','rotate3d(0,1,0,180deg)');
+	// 		// alert(src_new);
+	// 	},
+	// 	function(){
+	// 		$(this).attr('src',src_img);
+	// 	}
+	// 	);
+	$('.dim_human').parents('div.tm-block').addClass('dh-block');
+	$('.contacto_geo').parents('div.tm-block').addClass('contact-block');
+	$('.dh-block + .tm-block-dark').addClass('com-block');	
 });

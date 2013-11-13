@@ -4911,7 +4911,16 @@ html {
   text-align: justify;
 }
 .block_geo1 {
-  background-color: #c6c3be, 80%;
+  background-color: #c6c3be;
+}
+.dh-block {
+  background-color: #cecac6;
+}
+.com-block {
+  background-color: #d5d2cf;
+}
+.contact-block {
+  background-color: #dddbd8;
 }
 /* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 /*
