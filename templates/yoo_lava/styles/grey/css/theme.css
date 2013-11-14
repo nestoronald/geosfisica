@@ -4675,11 +4675,11 @@ html {
 @media (min-width: 1700px) {
   .tm-page,
   .tm-toolbar {
-    max-width: 70%;
+    max-width: 65%;
   }
   .tm-sticky-navbar,
   .tm-sticky-navbar-tool {
-    width: 70%;
+    width: 65%;
   }
 }
 @media (max-width: 959px) {
@@ -4719,11 +4719,11 @@ html {
   .tm-block-full-padding,
   .tm-block-padding,
   .tm-bottom {
-    padding-bottom: 90px;
+    padding-bottom: 55px;
   }
   .tm-navbar + .tm-block,
   .tm-block-padding + .tm-block {
-    padding-top: 90px;
+    padding-top: 55px;
   }
 }
 .tm-navbar + .tm-block-full {
@@ -4866,7 +4866,7 @@ html {
   color: #fff;
   font-weight: bold;
 }
-@media (min-width: 800px) and (max-with: 1000px) {
+@media (min-width: 800px) and (max-width: 2000px) {
   .geo1 img {
     width: 600px !important;
   }
@@ -4921,6 +4921,9 @@ html {
 }
 .contact-block {
   background-color: #dddbd8;
+}
+.none {
+  display: none;
 }
 /* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 /*

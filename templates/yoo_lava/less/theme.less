@@ -18,7 +18,7 @@
 
 @theme_utility-page-large-max-width: 	85%;
 @theme_utility-page-xlarge-max-width: 	80%;
-@theme_utility-page-xxlarge-max-width: 	70%;
+@theme_utility-page-xxlarge-max-width: 	65%;/*70*/
 @fondo_main: #f0efee;
 @fondo_home: #C6C3BE;
 @fondo_home_80: #cecac6;
@@ -175,10 +175,10 @@ html { overflow-y: scroll; }
 	.tm-block-full,
 	.tm-block-full-padding,
 	.tm-block-padding,
-	.tm-bottom { padding-bottom: 90px; }
+	.tm-bottom { padding-bottom: 55px; }/*90*/
 
 	.tm-navbar + .tm-block,
-	.tm-block-padding + .tm-block { padding-top: 90px; }
+	.tm-block-padding + .tm-block { padding-top: 55px; }/*90*/
 
 }
 
@@ -533,7 +533,7 @@ html { overflow-y: scroll; }
 	}
 }
 
-@media (min-width: 800px) and (max-with:1000px){
+@media (min-width: 800px) and (max-width:2000px){
 	.geo1 img {
 		width: 600px !important;
 	}
@@ -585,3 +585,4 @@ html { overflow-y: scroll; }
 .dh-block { background-color:@fondo_home_80 }
 .com-block { background-color:@fondo_home_60 }
 .contact-block { background-color:@fondo_home_40 }
+.none{display: none;}
