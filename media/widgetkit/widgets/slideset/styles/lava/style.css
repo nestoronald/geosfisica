@@ -104,10 +104,10 @@
 .wk-slideset-lava .sets { margin: 0 -10px; }
 .wk-slideset-lava article { margin: 0; }
 
-.wk-slideset-lava article { 	
+/*.wk-slideset-lava article { 	
 	border-radius: 50%;
-	border: 12px solid #bd852d;/*#eef3f5*/
-}
+	border: 12px solid #bd852d; ---#eef3f5
+}*/
 
 .wk-slideset-lava article:first-child { margin-right: -7px; }
 .wk-slideset-lava article:last-child { margin-left: -7px; }
