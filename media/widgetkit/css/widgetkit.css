@@ -84,7 +84,7 @@ a[data-lightbox] img {
 }
 
 .wk-slideshow .caption {
-	font-size: 2em;	
+	font-size: 2em;
 	line-height: 1;
 	margin-right: 12%;
 	text-align: left !important;
@@ -97,12 +97,12 @@ a[data-lightbox] img {
 	bottom: 3%;
 	z-index: 5;
 	padding: 10px;
-	background: rgba(0,0,0,0.5);
+	background: rgba(212, 158, 73, 0.63); /*rgba(0,0,0,0.5)*/
 }
 
 .wk-slideshow .captions { display: none; }
 .wk-slideshow .caption,
-.wk-slideshow .caption a { color: #fff; }
+.wk-slideshow .caption a { color: #423F3F; }/*#fff*/
 .wk-slideshow .caption a { text-decoration: underline; }
 
 

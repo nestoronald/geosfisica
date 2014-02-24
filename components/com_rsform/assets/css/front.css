@@ -393,7 +393,7 @@ p.rsformVerticalClear {
 	padding: 0px;
 }
 
-.formResponsive input[type="button"], 
+.formResponsive input[type="button"],
 .formResponsive input[type="submit"],
 .formResponsive input[type="reset"] {
   border-color: #ccc;
@@ -549,19 +549,19 @@ p.rsformVerticalClear {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
 
-  display: inline-block;
-  min-height: 30px;
-  padding: 0 12px;
-  border: none;
-  background: #83d6df;
-  line-height: 30px;
-  color: #ffffff;
-  letter-spacing: normal;
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  background: none repeat scroll 0 0 #BD852D;
+  border: medium none;
   border-radius: 50px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  color: #FFFFFF;
+  display: inline-block;
+  letter-spacing: normal;
+  line-height: 15px;
+  min-height: 15px;
+  padding: 0 7px;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out 0s;
 }
 .uk-form.tm-form-primary input[type="submit"]:hover,
 .uk-form.tm-form-primary input[type="submit"]:focus
@@ -671,7 +671,7 @@ p.rsformVerticalClear {
   .formResponsive .formHorizontal .formControls {
     margin-left: 0;
   }
-  
+
   .formResponsive input[type="text"],
   .formResponsive input[type="password"],
   .formResponsive textarea,

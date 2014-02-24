@@ -16,9 +16,9 @@
 
 @theme_global-body-style: 				default;
 
-@theme_utility-page-large-max-width: 	85%;
-@theme_utility-page-xlarge-max-width: 	80%;
-@theme_utility-page-xxlarge-max-width: 	65%;/*70*/
+@theme_utility-page-large-max-width: 	80%;/*85*/
+@theme_utility-page-xlarge-max-width: 	70%;/*80*/
+@theme_utility-page-xxlarge-max-width: 	52%;/*70*/
 @fondo_main: #f0efee;
 @fondo_home: #C6C3BE;
 @fondo_home_80: #cecac6;
@@ -49,7 +49,8 @@ html { overflow-y: scroll; }
 }
 
 .tm-toolbar {
-	margin: 5px 10px;
+	// margin: 5px 10px;
+	margin: 0 auto 0;
 	max-width: 100%;
 }
 
@@ -65,7 +66,7 @@ html { overflow-y: scroll; }
 
 .tm-block { padding-bottom: 40px; }
 
-.tm-bottom { 
+.tm-bottom {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -93,7 +94,10 @@ html { overflow-y: scroll; }
 
 	.tm-toolbar {
 		width: @theme_utility-page-large-max-width;
-		margin: 5px auto 10px;
+		// margin: 5px auto 10px;
+		margin: 0 auto 0;
+		background-image: url(../images/001c.jpg);
+		background-repeat: repeat-x;
 	}
 
 	.tm-toolbar + .tm-page { margin-top: 0; }
@@ -103,7 +107,7 @@ html { overflow-y: scroll; }
 
 	.tm-sticky-navbar + * { margin-top: @navbar-nav-height + (2 * @theme_navbar-padding) + 60px; }
 	.tm-sticky-navbar-tool + * { margin-top: @navbar-nav-height + (2 * @theme_navbar-padding) + 10px; }
-	
+
 }
 
 /* Only xlarge screens */
@@ -114,7 +118,7 @@ html { overflow-y: scroll; }
 
 	.tm-sticky-navbar,
 	.tm-sticky-navbar-tool { width: @theme_utility-page-xlarge-max-width; }
-	
+
 }
 
 /* Only xxlarge screen */
@@ -127,7 +131,7 @@ html { overflow-y: scroll; }
 
 	.tm-sticky-navbar,
 	.tm-sticky-navbar-tool { width: @theme_utility-page-xxlarge-max-width; }
-	
+
 }
 
 /* Only phone screens */
@@ -157,7 +161,7 @@ html { overflow-y: scroll; }
 }
 
 .tm-block-light { background-color: @global-background; }
-.tm-block-dark 	{ background-color: darken(@global-background, 2%); }
+// .tm-block-dark 	{ background-color: darken(@global-background, 2%); }
 .tm-block-black { background-color: @theme_global-dark-background; }
 
 /* Set tm-block to 100% */
@@ -211,17 +215,17 @@ html { overflow-y: scroll; }
 
 /* Hover*/
 .tm-totop-scroller:hover,
-.tm-totop-scroller:focus { 
-	opacity: 1; 
+.tm-totop-scroller:focus {
+	opacity: 1;
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
 
 /* Active */
-.tm-totop-scroller:active { 
+.tm-totop-scroller:active {
 	opacity: 0.8;
 	-webkit-transform: scale(0.9);
-	transform: scale(0.9); 
+	transform: scale(0.9);
 }
 
 
@@ -329,7 +333,7 @@ html { overflow-y: scroll; }
 /* Extension
  ========================================================================== */
 
-.wk-slideset-lava a.uk-icon-button { 
+.wk-slideset-lava a.uk-icon-button {
 	color: @theme_global-default-background;
 	text-decoration: none;
 }
@@ -350,7 +354,7 @@ html { overflow-y: scroll; }
 
 .body-style () when (@theme_global-body-style = default) {
 
-	body { 
+	body {
 		// background-color: #4c4f53;
 
 		// background: url(../images/background/default/gradient1.svg) 75% 110% no-repeat fixed,
@@ -375,7 +379,7 @@ html { overflow-y: scroll; }
  * Blue
  */
 
-.body-style () when (@theme_global-body-style = blue) { 
+.body-style () when (@theme_global-body-style = blue) {
 
 		body {
 		background-color: #35272f;
@@ -395,11 +399,11 @@ html { overflow-y: scroll; }
  * Grey
  */
 
-.body-style () when (@theme_global-body-style = grey) { 
-	
+.body-style () when (@theme_global-body-style = grey) {
+
 	body {
 		background-color: #f0f0f0;
-		background: url(../images/background/grey/stripes.jpg); 
+		background: url(../images/background/grey/stripes.jpg);
 	}
 
 	.tm-page { box-shadow: 0 0 5px rgba(0,0,0,0.05); }
@@ -410,8 +414,8 @@ html { overflow-y: scroll; }
  * Orange
  */
 
-.body-style () when (@theme_global-body-style = orange) { 
-	
+.body-style () when (@theme_global-body-style = orange) {
+
 	body {
 		background-color: #ada8a4;
 
@@ -427,7 +431,7 @@ html { overflow-y: scroll; }
 
 		background-size: 100px 100px, 100% 140%, 100% 100%, 100% 100%;
 	}
-	
+
 	.tm-page { box-shadow: 0 0 25px rgba(0,0,0,0.06); }
 
 }
@@ -436,8 +440,8 @@ html { overflow-y: scroll; }
  * Red
  */
 
-.body-style () when (@theme_global-body-style = red) { 
-	
+.body-style () when (@theme_global-body-style = red) {
+
 	body {
 		background-color: #b4d1cf;
 
@@ -460,8 +464,8 @@ html { overflow-y: scroll; }
  * Strawberry
  */
 
-.body-style () when (@theme_global-body-style = strawberry) { 
-	
+.body-style () when (@theme_global-body-style = strawberry) {
+
 	body {
 		background-color: #575757;
 		background: url(../images/background/strawberry/gradient.svg) 50% 0 no-repeat fixed,
@@ -477,8 +481,8 @@ html { overflow-y: scroll; }
  * Terracotta
  */
 
-.body-style () when (@theme_global-body-style = terracotta) { 
-	
+.body-style () when (@theme_global-body-style = terracotta) {
+
 	body {
 		background-color: #d9b29b;
 
@@ -501,8 +505,8 @@ html { overflow-y: scroll; }
  * Salmon
  */
 
-.body-style () when (@theme_global-body-style = salmon) { 
-	
+.body-style () when (@theme_global-body-style = salmon) {
+
 	body {
 		background-color: #dedede;
 		background: url(../images/background/salmon/gradient.svg) 50% 0 no-repeat fixed,
